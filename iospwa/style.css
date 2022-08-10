@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+.upbar {
+    background: #0892d0;
+    font-size: 18px;
+    color: #ffffff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    width:100%;
+    z-index:100;
+}
+
+.dots:after {
+  top: 0.273em;
+  position: fixed;
+  right: 15px;
+  content: '\2807';
+  font-size: 32px;
+}
+
+.img {
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.imgdiv {
+  position: fixed;
+  top: 70px;
+  width: 100%;
+  height: 200px;
+}
+
+.title {
+  position: fixed;
+  top: 270px;
+  color: #000000;
+  left: 10px;
+  font-size: 96px;
+}
+
+.installbutton {
+  background-color: #cccccc;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  border: none;
+  border-radius: 3px
+}
+
+.installbutton:active {
+  background-color: #545454;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  box-shadow: 0px 2px 5px -1px rgba(168,168,168,0.85);
+  border: none;
+  border-radius: 3px
+}
+
+.installbuttondiv {
+  position: fixed;
+  top: 450px;
+  left: 10px;
+  font-size: 96px;
+}
+
+#brickd {
+  position: absolute;
+  z-index: 1000;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  margin: 0;
+  width:100%;
+  height: 100%;
+}
+
+#brickd img {
+  width:100%;
+  height: 100%;
+}
